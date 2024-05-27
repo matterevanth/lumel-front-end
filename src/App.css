@@ -1,0 +1,37 @@
+/* General styling */
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 30px;
+  background-color: #faf6f6; /* Adding a light background color for better contrast */
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff; /* Adding a white background to the table */
+  border-radius: 8px; /* Rounded corners for the table */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow for depth */
+}
+
+th, td {
+  padding: 12px; /* Increased padding for better spacing */
+  text-align: left;
+  border-bottom: 1px solid #ddd; /* Adding a bottom border for table cells */
+}
+
+/* Input styling */
+input {
+  width: 100px;
+  padding: 8px; /* Adjusting padding for consistency */
+  border: 1px solid #ccc; /* Adding a border for input fields */
+  border-radius: 4px; /* Rounded corners for input fields */
+  transition: border-color 0.3s ease; /* Smooth transition for input border */
+}
+
+input:focus {
+  outline: none; /* Removing default focus outline */
+  border-color: #6c63ff; /* Changing border color on focus for better feedback */
+}
